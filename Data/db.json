@@ -23,6 +23,12 @@
       "body": "useState hook is used to store temporary value in a component",
       "author": "yoshi",
       "id": 4
+    },
+    {
+      "title": "Custom hooks in react",
+      "body": "it is a javascript function that is used to share common logic across multiple components",
+      "author": "",
+      "id": 5
     }
   ]
 }
