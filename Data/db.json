@@ -29,6 +29,12 @@
       "body": "it is a javascript function that is used to share common logic across multiple components",
       "author": "",
       "id": 5
+    },
+    {
+      "title": "What is this keyword in JavaScript",
+      "body": "this keyword in java script refers to an object where the function is a property of it",
+      "author": "yoshi",
+      "id": 6
     }
   ]
 }

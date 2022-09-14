@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function Create() {
     const [input,setInput] =useState({
@@ -6,6 +7,7 @@ export default function Create() {
         body:"",
         author:""
     })
+    const navigate=useNavigate()
     const [isPending,setIsPending]=useState(false)
     const inputHandler=(e)=>{
         const {name,value}= e.target
@@ -22,6 +24,7 @@ export default function Create() {
     }).then(() => {
       alert('new blog added');
        setIsPending(false)
+       navigate("/")
     })
   }
   return (
