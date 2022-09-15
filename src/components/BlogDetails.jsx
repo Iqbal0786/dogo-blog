@@ -5,9 +5,9 @@ import useFetch from '../customHooks/useFetch';
 export default function BlogDetails() {
     const {id} = useParams();
     const navigate=useNavigate()
-    const {data:blog,isPending,error} = useFetch(`http://localhost:8000/blogs/${id}`);
+    const {data:blog,isPending,error} = useFetch(`https://dogo-blog-json-server.herokuapp.com/blogs/${id}`);
     const deleteBlogHandler=()=>{
-        fetch(`http://localhost:8000/blogs/${blog.id}`,{method:"Delete"}).then(()=>{
+        fetch(`https://dogo-blog-json-server.herokuapp.com/blogs/${blog.id}`,{method:"Delete"}).then(()=>{
             navigate("/")
         }).catch((error)=>{
             console.log(error.message)

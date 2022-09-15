@@ -3,7 +3,7 @@ import useFetch from "../customHooks/useFetch";
 import BlogList from "./BlogList";
 
 export default function Home() {
-  const {data:blogs,isPending,error} =useFetch("http://localhost:8000/blogs")
+  const {data:blogs,isPending,error} =useFetch("https://dogo-blog-json-server.herokuapp.com/blogs")
 
   
   return (

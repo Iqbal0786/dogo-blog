@@ -17,7 +17,7 @@ export default function Create() {
     e.preventDefault();
     setIsPending(true)
 
-    fetch('http://localhost:8000/blogs/', {
+    fetch('https://dogo-blog-json-server.herokuapp.com/blogs', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(input)
