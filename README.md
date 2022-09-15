@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# The Dogo Blogs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple blog web application built with react and json server
 
-## Available Scripts
+## Run Project : 
+- Clone the repo  and run npm i to install all the dependencies
 
-In the project directory, you can run:
+- Before running the react application make sure you have started the json server .
+To run json server write command :  npx  json-server  --watch Data/db.json  --port 8000  (you can use different port also)
 
-### `npm start`
+- Finally run command " npm run start " to see application in the browser
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- The  above process is for local machine and if you want to run it without clone just click the deployed link 
+https://dogo-blog-topaz.vercel.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Team Members
+Solo project
+ 
+ ## Tech Stacks
+ - React
+ - React Router Dom
+ - Json Server
+ - HTML
+ - JavaScript
+ - CSS
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tools
 
-### `npm run build`
+ - Vs Code
+ - Git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Functionalities
+- User Can see all the blogs written by different authors
+- User can see full details of the blog
+- User can  create new blog with the given author names and also delete it
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the project and  run command  npm start to launch the project in local machine
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    
+## Project Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Home Page with all the written blogs data
+![Screenshot (1788)](https://user-images.githubusercontent.com/63330022/190323290-02eeff41-413f-4a64-a921-53ec16bd6fd8.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Create New Blog Page 
+![Screenshot (1789)](https://user-images.githubusercontent.com/63330022/190323334-d013e777-745a-41cd-8a65-8a68d33726a8.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Single Blog Details Page
 
-### Code Splitting
+![Screenshot (1790)](https://user-images.githubusercontent.com/63330022/190323397-d9aa7c17-4969-4338-ae6c-4c0a54765fe1.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
