@@ -17,12 +17,6 @@
       "body": "this keyword in java script refers to an object where the function is a property of it",
       "author": "yoshi",
       "id": 6
-    },
-    {
-      "title": "What is call method in JavaScript",
-      "body": "The Function call is a predefined javascript method, which is used to write methods for different objects. It calls the method, taking the owner object as an argument. The keyword this refers to the “owner” of the function or the object it belongs to. All the functions in javascript are considered as object methods. So we can bound a function to a particular object by using ‘call()’. A function will be the global object if the function is not considered as a method of a JavaScript object.",
-      "author": "yoshi",
-      "id": 7
     }
   ]
 }
